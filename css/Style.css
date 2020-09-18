@@ -1,0 +1,163 @@
+@font-face {
+    font-family: MetalMania;
+    src: url("../Google-fonts/MetalMania-Regular.ttf");
+    font-family: Doodle;
+    src: url("../Google-fonts/SedgwickAve-Regular.ttf");
+}
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 15px;
+    font-family: Doodle, sans-serif;
+    text-emphasis: none;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+
+
+}
+p {
+    font-family: Doodle, sans-serif;
+}
+
+
+/* Navigation */
+
+nav {
+    height: 51px;
+    margin: -15px -15px 0 -15px;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    position: fixed;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    margin: 0 -3px;
+    display: block;
+    padding: 15px;
+    text-decoration-line: none;
+}
+
+nav a:link, nav a:visited {
+    color: white;
+}
+
+nav a:hover, nav #activePage {
+    color: rgba(5, 5, 5, 0.897);
+    background-color: rgb(182, 16, 16);
+}
+
+nav a:active {
+    background-color: rgb(255, 255, 255);
+}
+/* Done navigation */
+
+/* h1 styling  */
+h1 {
+    margin-top: 55px;
+   
+}
+
+.img {
+   display: block;
+   margin: 5px auto;
+   margin: top 100px;
+}
+
+h1 {
+    text-align: center;
+/* End h1  */
+
+}
+
+/* Try */
+
+table, td, th {  
+    border-collapse: collapse;
+     margin: 0% auto;
+    border: 3px solid rgb(0, 0, 0);
+    text-align: left;
+  }
+  
+  table {
+    color: rgb(5, 5, 46);
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 15px;
+  }
+
+/* forms styling */
+form {
+    width: 90%;
+    margin: 0 auto;
+}
+form div {
+    margin-bottom: 10px;
+}
+label {
+    display: inline-block;
+    width: 45%;
+}
+
+select {
+    width: 250px;
+    padding: 3px 15px;
+    border: none;
+    border-radius: 1px;
+    background-color: #ebd1d1;
+  }
+ 
+  form input[type="text"],
+  form input[type="email"],
+  form input[type="password"],
+  form textarea,
+  form select {
+      width: 40%;
+  }
+
+  /* Background-photo */
+ body {
+   background-image: url("../Background-Photo/stock-vector-doodle-red-music-note-681881221-removebg-preview.png");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+ }
+ /* iframe  */
+ iframe {
+    margin: 50px 15px;
+ }
+
+ /* Social Media Links */
+
+ .SM {
+    display: inline-block;
+    padding: 20px;
+    font-size: 40px;
+    width: 20px;
+    margin: 20px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(17, 8, 1);
+ }
+ footer a:hover {
+    color: rgb(34, 5, 161);
+  }
+  
+ /* Done  */
